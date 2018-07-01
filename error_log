@@ -1,0 +1,1 @@
+[22-Jun-2018 00:12:14 UTC] PHP Catchable fatal error:  Argument 1 passed to GoogleRequest::getRequest() must be an instance of string, string given, called in /home/samuelajiboye/public_html/madison/index.php on line 60 and defined in /home/samuelajiboye/public_html/madison/index.php on line 43

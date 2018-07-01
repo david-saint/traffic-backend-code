@@ -1,0 +1,14 @@
+{
+    "name": "tiwatope/traffic-backend",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Saint",
+            "email": "topstronics@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
