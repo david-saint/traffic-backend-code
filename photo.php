@@ -48,7 +48,7 @@ class Photo
     $new_name = time().$validate['message']['name'];
 
     if (move_uploaded_file($validate['message']['tmp'], $this->destination.$new_name))
-      return "File URL: {$_SERVER['SERVER_NAME']}/{$this->destination}{$new_name} <a href=\"/photo.php\">Add another</a>";
+      return "File URL: https://{$_SERVER['SERVER_NAME']}/{$this->destination}{$new_name} <a href=\"/photo.php\">Add another</a>";
     else
       return 'An Error occured';
   }
