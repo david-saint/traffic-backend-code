@@ -68,7 +68,7 @@ class Photo
       return ['status' => false, 'message' => 'Invalid file type'];
 
     if ($file['error'] !== 0)
-      return ['status' => false, 'message' => 'An error occured.'];
+      return ['status' => false, 'message' => "An error occured. (Error code: {$file['error']})"];
 
     if ($file['size'] >= (5 * 1024 * 1024))
       return ['status' => false, 'message' => 'File is too large.'];
